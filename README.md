@@ -1,6 +1,6 @@
 # full stack react ecommerce website
 
- ## using 
+ ### technologies
  - reactjs
  - redux toolkit
  - firebase v9
