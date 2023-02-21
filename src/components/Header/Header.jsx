@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./Header.css";
 import { motion } from "framer-motion";
-import logo from "../../assets/images/eco-logo.png";
+import logo from "../../assets/images/JAutos.png";
 import userIcon from "../../assets/images/user-icon.png";
 import { Container, Row } from "react-bootstrap";
 import { useRef, useEffect } from "react";
@@ -67,9 +67,15 @@ const Header = () => {
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
+  //Navigate to Cart
   const navigateToCart = () => {
     navigate("/cart");
   };
+
+  //Navigate to Home
+  const navigateToHome = () => {
+    navigate("/home")
+  }
 
   const toggleProfileActions = () =>
     profileActionRef.current.classList.toggle("show__profileActions");
@@ -80,10 +86,10 @@ const Header = () => {
         <Row>
           <div className="nav__wrapper">
             {/* Logo */}
-            <div className="logo">
+            <div className="logo" onClick={navigateToHome}>
               <img src={logo} alt="logo" />
               <div>
-                <h1>L'HABILLEUR</h1>
+                <h1>J'Autos</h1>
               </div>
             </div>
 

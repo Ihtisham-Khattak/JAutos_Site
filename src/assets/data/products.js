@@ -5,7 +5,7 @@ import productImg03 from "../images/double-sofa-03.png";
 import productImg04 from "../images/single-sofa-01.jpg";
 import productImg05 from "../images/single-sofa-02.jpg";
 import productImg06 from "../images/single-sofa-03.jpg";
-import productImg007 from "../images/single-sofa-04.png";
+import productImg007 from "../images/top-category-tools-and-garage.jpeg";
 
 // import productImg07 from "../images/arm-chair-01.jpg";
 // import productImg08 from "../images/arm-chair-02.jpg";
@@ -17,7 +17,7 @@ import productImg08 from "../images/top-category-auto-body-parts-and-mirrors.jpe
 import productImg09 from "../images/top-category-wheels-and-tires.jpeg";
 import productImg10 from "../images/top-category-headlights-and-lighting.jpeg";
 
-import productImg13 from "../images/phone-01.jpg";
+import productImg13 from "../images/shocks-comma-_struts_-and-_components.jpg";
 import productImg14 from "../images/phone-02.jpg";
 import productImg15 from "../images/phone-03.png";
 import productImg16 from "../images/phone-04.jpg";
