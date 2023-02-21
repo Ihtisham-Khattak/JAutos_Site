@@ -7,10 +7,15 @@ import productImg05 from "../images/single-sofa-02.jpg";
 import productImg06 from "../images/single-sofa-03.jpg";
 import productImg007 from "../images/single-sofa-04.png";
 
-import productImg07 from "../images/arm-chair-01.jpg";
-import productImg08 from "../images/arm-chair-02.jpg";
-import productImg09 from "../images/arm-chair-03.jpg";
-import productImg10 from "../images/arm-chair-01.jpg";
+// import productImg07 from "../images/arm-chair-01.jpg";
+// import productImg08 from "../images/arm-chair-02.jpg";
+// import productImg09 from "../images/arm-chair-03.jpg";
+// import productImg10 from "../images/arm-chair-01.jpg";
+
+import productImg07 from "../images/top-category-brakes-suspension-and-steering.jpeg";
+import productImg08 from "../images/top-category-auto-body-parts-and-mirrors.jpeg";
+import productImg09 from "../images/top-category-wheels-and-tires.jpeg";
+import productImg10 from "../images/top-category-headlights-and-lighting.jpeg";
 
 import productImg13 from "../images/phone-01.jpg";
 import productImg14 from "../images/phone-02.jpg";
@@ -185,11 +190,12 @@ const products = [
     ],
     avgRating: 4.7,
   },
+  // Top Trending products
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Body parts, Mirrors",
     imgUrl: productImg07,
-    category: "chair",
+    category: "parts",
     price: 99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -212,7 +218,7 @@ const products = [
     id: "27",
     productName: "Modern Arm Sofa",
     imgUrl: productImg007,
-    category: "sofa",
+    category: "parts",
     price: 173,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -235,7 +241,7 @@ const products = [
     id: "08",
     productName: "Baltsar Chair",
     imgUrl: productImg08,
-    category: "chair",
+    category: "parts",
     price: 89,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -256,9 +262,9 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Replica Wheels",
     imgUrl: productImg09,
-    category: "chair",
+    category: "parts",
     price: 112,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",

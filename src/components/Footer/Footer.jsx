@@ -29,7 +29,7 @@ const Footer = () => {
               <ListGroup className='mb-3 list'>
 
                 <ListGroupItem className='ps-0 border-0'>
-                  <Link to='#'>Mobile Phones</Link>
+                  <Link to='#' className='footer__text'>Mobile Phones</Link>
                 </ListGroupItem>
 
                 <ListGroupItem className='ps-0 border-0'>
