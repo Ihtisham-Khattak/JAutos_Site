@@ -18,17 +18,17 @@ import productImg09 from "../images/top-category-wheels-and-tires.jpeg";
 import productImg10 from "../images/top-category-headlights-and-lighting.jpeg";
 
 import productImg13 from "../images/shocks-comma-_struts_-and-_components.jpg";
-import productImg14 from "../images/phone-02.jpg";
-import productImg15 from "../images/phone-03.png";
-import productImg16 from "../images/phone-04.jpg";
-import productImg17 from "../images/phone-05.jpg";
-import productImg18 from "../images/phone-06.jpg";
+import productImg14 from "../images/tail_lights-comma-_back_up_lights_-and-_accessories.jpg";
+import productImg15 from "../images/tie_rods-comma-_steering_racks-comma-_gearboxes_-and-_components.jpg";
+import productImg16 from "../images/top-category-auto-body-parts-and-mirrors.jpeg";
+import productImg17 from "../images/top-category-engine-and-drivetrain.jpeg";
+import productImg18 from "../images/top-category-exterior-accessories.jpeg";
 
-import productImg19 from "../images/watch-01.jpg";
-import productImg20 from "../images/watch-02.jpg";
-import productImg21 from "../images/watch-03.jpg";
-// import productImg22 from "../images/watch-04.jpg";
-import productImg26 from "../images/watch-5.jpg";
+import productImg19 from "../images/wheel-4871228__340.jpg";
+import productImg20 from "../images/ferrari-3772332__340.jpg";
+import productImg21 from "../images/car-wheel-3790419__340.jpg";
+// import productImg22 from "../images/wheel-rim-254714__340.jpeg";
+import productImg26 from "../images/car-3198788__340.jpg";
 
 
 import productImg23 from "../images/wireless-01.png";
@@ -444,9 +444,9 @@ const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Wheel Rim Automobile",
     imgUrl: productImg19,
-    category: "watch",
+    category: "rims",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -467,9 +467,9 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Ferrari Red Rims",
     imgUrl: productImg20,
-    category: "watch",
+    category: "rims",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -490,9 +490,9 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "Porche Silver Rim",
     imgUrl: productImg21,
-    category: "watch",
+    category: "rims",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -513,9 +513,9 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Wheel Rim Automobile",
     imgUrl: productImg26,
-    category: "watch",
+    category: "rims",
     price: 399,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
