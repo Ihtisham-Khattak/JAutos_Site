@@ -12,6 +12,7 @@ import ProductsList from "../components/Ui/ProductsList";
 import { useState, useEffect } from "react";
 import counterImg from "../assets/images/counter-timer-img.png";
 import Clock from "../components/Ui/Clock";
+import TopCompany from "./TopCompany";
 
 function Home() {
   const [trindingProducts, setTrindingProducts] = useState([]);
@@ -27,7 +28,10 @@ function Home() {
     const filteredTrendingProducts = products.filter(
       (item) => item.category === "parts"
     );
-    console.log("🚀 ~ file: Home.jsx:29 ~ useEffect ~ filteredTrendingProducts:", filteredTrendingProducts)
+    console.log(
+      "🚀 ~ file: Home.jsx:29 ~ useEffect ~ filteredTrendingProducts:",
+      filteredTrendingProducts
+    );
 
     const filteredBestSalesProducts = products.filter(
       (item) => item.category === "sofa"
@@ -75,7 +79,7 @@ function Home() {
 
             <Col lg="6" md="6">
               <div className="hero__img">
-                <img src={heroImg} alt="home-img"  className="mb-2"/>
+                <img src={heroImg} alt="home-img" className="mb-2" />
                 <img src={heroImg_2} alt="home-img second" />
               </div>
             </Col>
@@ -84,6 +88,18 @@ function Home() {
       </section>
 
       <Services />
+
+      {/* Trending Companies */}
+      <section className="trending__products">
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center">
+              <h2 className="section__tilte">Trending Companies</h2>
+            </Col>
+            <TopCompany />
+          </Row>
+        </Container>
+      </section>
 
       {/* Trending Products */}
       <section className="trending__products">

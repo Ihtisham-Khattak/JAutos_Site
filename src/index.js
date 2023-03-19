@@ -9,6 +9,7 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,7 +17,7 @@ root.render(
     <BrowserRouter>
       <Provider store={store}>
         <ToastContainer
-        theme="white"
+        theme="light"
         position="top-right"
         autoClose={3000}
         closeOnClick

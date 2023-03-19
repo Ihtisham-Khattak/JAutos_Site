@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import logo from "../../assets/images/JAutos.png";
 import userIcon from "../../assets/images/user-icon.png";
 import { Container, Row } from "react-bootstrap";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import useAuth from "../../custom-hooks/useAuth";
 import { signOut } from "firebase/auth";
@@ -31,11 +31,12 @@ const Header = () => {
   const headerRef = useRef(null);
   const profileActionRef = useRef(null);
   const menuRef = useRef(null);
-  
+
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
   const navigate = useNavigate();
   const { currentUser } = useAuth();
 
+  const [navSticky, setNavSticky] = useState(false);
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
       if (
@@ -74,14 +75,17 @@ const Header = () => {
 
   //Navigate to Home
   const navigateToHome = () => {
-    navigate("/home")
-  }
+    navigate("/home");
+  };
 
   const toggleProfileActions = () =>
     profileActionRef.current.classList.toggle("show__profileActions");
 
   return (
-    <header className="header" ref={headerRef}>
+    <header
+      className="header" 
+      ref={headerRef}
+    >
       <Container>
         <Row>
           <div className="nav__wrapper">
