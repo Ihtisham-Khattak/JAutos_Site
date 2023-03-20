@@ -24,15 +24,10 @@ function Home() {
   const year = new Date().getFullYear();
 
   useEffect(() => {
-    debugger;
+    
     const filteredTrendingProducts = products.filter(
       (item) => item.category === "parts"
     );
-    console.log(
-      "🚀 ~ file: Home.jsx:29 ~ useEffect ~ filteredTrendingProducts:",
-      filteredTrendingProducts
-    );
-
     const filteredBestSalesProducts = products.filter(
       (item) => item.category === "sofa"
     );
@@ -46,7 +41,7 @@ function Home() {
     );
 
     const filteredPopularProducts = products.filter(
-      (item) => item.category === "watch"
+      (item) => item.category === "rims"
     );
 
     setTrindingProducts(filteredTrendingProducts);
@@ -165,7 +160,7 @@ function Home() {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h2 className="section__tilte">Popular in Category</h2>
+              <h2 className="section__tilte">Popular Rims in Category</h2>
             </Col>
 
             <ProductsList data={popularProducts} />

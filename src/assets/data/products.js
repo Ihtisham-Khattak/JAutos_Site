@@ -18,22 +18,20 @@ import productImg09 from "../images/top-category-wheels-and-tires.jpeg";
 import productImg10 from "../images/top-category-headlights-and-lighting.jpeg";
 
 import productImg13 from "../images/shocks-comma-_struts_-and-_components.jpg";
-import productImg14 from "../images/phone-02.jpg";
-import productImg15 from "../images/phone-03.png";
-import productImg16 from "../images/phone-04.jpg";
-import productImg17 from "../images/phone-05.jpg";
-import productImg18 from "../images/phone-06.jpg";
+import productImg14 from "../images/tail_lights-comma-_back_up_lights_-and-_accessories.jpg";
+import productImg15 from "../images/tie_rods-comma-_steering_racks-comma-_gearboxes_-and-_components.jpg";
+import productImg16 from "../images/top-category-auto-body-parts-and-mirrors.jpeg";
+import productImg17 from "../images/top-category-engine-and-drivetrain.jpeg";
+import productImg18 from "../images/top-category-exterior-accessories.jpeg";
 
-import productImg19 from "../images/watch-01.jpg";
-import productImg20 from "../images/watch-02.jpg";
-import productImg21 from "../images/watch-03.jpg";
-// import productImg22 from "../images/watch-04.jpg";
-import productImg26 from "../images/watch-5.jpg";
+import productImg19 from "../images/gloss_black_machine.webp";
+import productImg20 from "../images/gloss_black_machine_silver.webp";
+import productImg21 from "../images/gloss_black_machine_white.webp";
+import productImg26 from "../images/gloss_black_machine_black.webp";
 
 
-import productImg23 from "../images/wireless-01.png";
-
-import productImg25 from "../images/wireless-03.png";
+import productImg23 from "../images/head_light.webp";
+import productImg25 from "../images/fog_lights_2.webp";
 
 const products = [
   {
@@ -444,9 +442,9 @@ const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "JA102 Gloss Black Machine Face Red Lip",
     imgUrl: productImg19,
-    category: "watch",
+    category: "rims",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -467,9 +465,9 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "19 Inch 5 Holes Aluminum Bronze",
     imgUrl: productImg20,
-    category: "watch",
+    category: "rims",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -490,9 +488,9 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "5 Holes Alloy Car Wheel Rims",
     imgUrl: productImg21,
-    category: "watch",
+    category: "rims",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -513,9 +511,9 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "JA150 Custom Casting Rims",
     imgUrl: productImg26,
-    category: "watch",
+    category: "rims",
     price: 399,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
