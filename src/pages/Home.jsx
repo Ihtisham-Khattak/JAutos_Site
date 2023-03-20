@@ -10,7 +10,7 @@ import heroImg_2 from "../assets/images/heroshot-desktop_2.webp";
 import Services from "../services/Services";
 import ProductsList from "../components/Ui/ProductsList";
 import { useState, useEffect } from "react";
-import counterImg from "../assets/images/counter-timer-img.png";
+import counterImg from "../assets/images/top-category-exterior-accessories.png";
 import Clock from "../components/Ui/Clock";
 import TopCompany from "./TopCompany";
 
@@ -127,7 +127,7 @@ function Home() {
             <Col lg="6" md="12" className="count__down-col">
               <div className="clock__top-content">
                 <h4 className="text-white fs-6 mb-2">Limited Offers</h4>
-                <h3 className="text-white fs-5 mb-3">Quality Armchair</h3>
+                <h3 className="text-white fs-5 mb-3">Exterior Accessories</h3>
               </div>
               <Clock />
 
@@ -139,7 +139,7 @@ function Home() {
               </motion.button>
             </Col>
             <Col lg="6" md="12" className="text-end counter__img">
-              <img src={counterImg} alt="img" />
+              <img src={counterImg} alt="img"/>
             </Col>
           </Row>
         </Container>
