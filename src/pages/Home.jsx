@@ -160,7 +160,7 @@ function Home() {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h2 className="section__tilte">Popular in Category</h2>
+              <h2 className="section__tilte">Popular Rims in Category</h2>
             </Col>
 
             <ProductsList data={popularProducts} />

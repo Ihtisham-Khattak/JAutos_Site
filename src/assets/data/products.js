@@ -24,16 +24,14 @@ import productImg16 from "../images/top-category-auto-body-parts-and-mirrors.jpe
 import productImg17 from "../images/top-category-engine-and-drivetrain.jpeg";
 import productImg18 from "../images/top-category-exterior-accessories.jpeg";
 
-import productImg19 from "../images/wheel-4871228__340.jpg";
-import productImg20 from "../images/ferrari-3772332__340.jpg";
-import productImg21 from "../images/car-wheel-3790419__340.jpg";
-// import productImg22 from "../images/wheel-rim-254714__340.jpeg";
-import productImg26 from "../images/car-3198788__340.jpg";
+import productImg19 from "../images/gloss_black_machine.webp";
+import productImg20 from "../images/gloss_black_machine_silver.webp";
+import productImg21 from "../images/gloss_black_machine_white.webp";
+import productImg26 from "../images/gloss_black_machine_black.webp";
 
 
-import productImg23 from "../images/wireless-01.png";
-
-import productImg25 from "../images/wireless-03.png";
+import productImg23 from "../images/head_light.webp";
+import productImg25 from "../images/fog_lights_2.webp";
 
 const products = [
   {
@@ -444,7 +442,7 @@ const products = [
 
   {
     id: "16",
-    productName: "Wheel Rim Automobile",
+    productName: "JA102 Gloss Black Machine Face Red Lip",
     imgUrl: productImg19,
     category: "rims",
     price: 299,
@@ -467,7 +465,7 @@ const products = [
 
   {
     id: "17",
-    productName: "Ferrari Red Rims",
+    productName: "19 Inch 5 Holes Aluminum Bronze",
     imgUrl: productImg20,
     category: "rims",
     price: 299,
@@ -490,7 +488,7 @@ const products = [
 
   {
     id: "18",
-    productName: "Porche Silver Rim",
+    productName: "5 Holes Alloy Car Wheel Rims",
     imgUrl: productImg21,
     category: "rims",
     price: 299,
@@ -513,7 +511,7 @@ const products = [
 
   {
     id: "19",
-    productName: "Wheel Rim Automobile",
+    productName: "JA150 Custom Casting Rims",
     imgUrl: productImg26,
     category: "rims",
     price: 399,
