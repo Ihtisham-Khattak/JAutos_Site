@@ -3,7 +3,8 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
   cartItems: [],
   totalAmount:0, 
-  totalQuantity:0
+  totalQuantity:0,
+  darkTheme: false
 }
 
 const cartSlice = createSlice({
@@ -48,6 +49,10 @@ const cartSlice = createSlice({
           * Number(item.quantity),0);
   
     },
+
+    toggleTheme:  (state) => {
+      state.darkTheme = !state.darkTheme
+    }
 
   },
 

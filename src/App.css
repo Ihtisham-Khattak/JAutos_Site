@@ -46,6 +46,14 @@ h2 {
   font-size: var(--heading-fontSize);
 }
 
+#light h2{
+  color: #ffffff;
+}
+
+#dark h2{
+  color: #000000;
+}
+
 ul {
   list-style: none;
 }
@@ -54,6 +62,15 @@ a {
   text-decoration: none;
   color: unset;
 }
+
+#light a{
+  color: #ffffff;
+}
+
+#dark a{
+  color: #ffffff;
+}
+
 
 img{
   width: 100%;
@@ -66,4 +83,21 @@ section{
 .section__tilte{
   color: var(--primary-color);
   font-weight: 600;
+}
+
+#light{
+  background: #000000;
+  color: #ffffff
+}
+
+#dark{
+  background: #ffffff;
+  color: #000000;
+}
+
+.react__switch{
+  position: absolute;
+  bottom: 45px;
+  float: right;
+  right: 35px;
 }

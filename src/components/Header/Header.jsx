@@ -4,7 +4,7 @@ import "./Header.css";
 import { motion } from "framer-motion";
 import logo from "../../assets/images/JAutos.png";
 import userIcon from "../../assets/images/user-icon.png";
-import { Container, Row } from "react-bootstrap";
+import { Button, Container, Row } from "react-bootstrap";
 import { useRef, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import useAuth from "../../custom-hooks/useAuth";
@@ -36,16 +36,18 @@ const Header = () => {
   const navigate = useNavigate();
   const { currentUser } = useAuth();
 
-  const [navSticky, setNavSticky] = useState(false);
+  //Navbar background
+  const [navBg, setNavBg] = useState("sticky__header");
+
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
       if (
-        document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop > 80
+        document.body.scrollHeight > 80 ||
+        document.documentElement.scrollHeight > 80
       ) {
-        headerRef.current.classList.add("sticky__header");
+        setNavBg(navBg);
       } else {
-        headerRef.current.classList.remove("sticky__header");
+        setNavBg(!navBg);
       }
     });
   };
@@ -66,7 +68,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", stickyHeaderFunc);
   });
 
-  const menuToggle = () => menuRef.current.classList.toggle("active__menu");
+  const menuToggle = () => menuRef.current.classList.toggle("active__toggle");
 
   //Navigate to Cart
   const navigateToCart = () => {
@@ -78,14 +80,13 @@ const Header = () => {
     navigate("/home");
   };
 
+  //const
+
   const toggleProfileActions = () =>
     profileActionRef.current.classList.toggle("show__profileActions");
 
   return (
-    <header
-      className="header" 
-      ref={headerRef}
-    >
+    <header className="header" ref={headerRef}>
       <Container>
         <Row>
           <div className="nav__wrapper">
@@ -98,7 +99,7 @@ const Header = () => {
             </div>
 
             {/* Links */}
-            <div className="navigation" ref={menuRef} onClick={menuToggle}>
+            <div className="navigation" ref={menuRef}>
               <ul className="menu">
                 {nav__links.map((item, index) => (
                   <li className="nav__item" key={index}>
@@ -156,6 +157,21 @@ const Header = () => {
                   )}
                 </div>
               </div>
+
+              {/* Dark and Light Mode */}
+              {/* <div className="switch__menu">
+                <span>
+                  <ReactSwitch
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      width: "100px",
+                      height,
+                    }}
+                  />
+                </span>
+              </div> */}
 
               {/* Mobile Menu */}
               <div className="mobile__menu">

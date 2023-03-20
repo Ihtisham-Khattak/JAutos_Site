@@ -13,6 +13,7 @@ import { useState, useEffect } from "react";
 import counterImg from "../assets/images/top-category-exterior-accessories.png";
 import Clock from "../components/Ui/Clock";
 import TopCompany from "./TopCompany";
+import { useDispatch, useSelector } from "react-redux";
 
 function Home() {
   const [trindingProducts, setTrindingProducts] = useState([]);
@@ -24,7 +25,6 @@ function Home() {
   const year = new Date().getFullYear();
 
   useEffect(() => {
-    
     const filteredTrendingProducts = products.filter(
       (item) => item.category === "parts"
     );
@@ -139,7 +139,7 @@ function Home() {
               </motion.button>
             </Col>
             <Col lg="6" md="12" className="text-end counter__img">
-              <img src={counterImg} alt="img"/>
+              <img src={counterImg} alt="img" />
             </Col>
           </Row>
         </Container>
