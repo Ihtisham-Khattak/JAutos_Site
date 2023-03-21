@@ -4,6 +4,17 @@
   background: var(--primary-color);
 }
 
+#light .footer{
+  background: #000000;
+  color: #ffffff
+}
+
+#dark .footer{
+  background: var(--primary-color);
+  color: #000000;
+}
+
+
 .footer__text{
   line-height: 30px;
   color: #fff;
@@ -33,4 +44,14 @@
   font-size: 0.9rem;
   margin-top: 50px;
   text-align: center;
+}
+
+#light{
+  background: #000000;
+  color: #ffffff
+}
+
+#dark{
+  background: #ffffff;
+  color: #000000;
 }

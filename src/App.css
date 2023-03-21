@@ -97,7 +97,7 @@ section{
 
 .react__switch{
   position: absolute;
-  bottom: 45px;
+  /* bottom: 10px; */
   float: right;
-  right: 35px;
+  right: 10px;
 }

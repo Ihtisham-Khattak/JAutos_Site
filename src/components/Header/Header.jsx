@@ -11,6 +11,7 @@ import useAuth from "../../custom-hooks/useAuth";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase.config";
 import { toast } from "react-toastify";
+import ReactSwitch from "react-switch";
 
 const nav__links = [
   {
@@ -27,7 +28,7 @@ const nav__links = [
   },
 ];
 
-const Header = () => {
+const Header = ({ toggleTheme, theme }) => {
   const headerRef = useRef(null);
   const profileActionRef = useRef(null);
   const menuRef = useRef(null);
@@ -159,19 +160,11 @@ const Header = () => {
               </div>
 
               {/* Dark and Light Mode */}
-              {/* <div className="switch__menu">
-                <span>
-                  <ReactSwitch
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      width: "100px",
-                      height,
-                    }}
-                  />
-                </span>
-              </div> */}
+              <ReactSwitch
+                onChange={toggleTheme}
+                checked={theme}
+                className="react__switch"
+              />
 
               {/* Mobile Menu */}
               <div className="mobile__menu">
