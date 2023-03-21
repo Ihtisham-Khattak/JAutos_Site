@@ -34,6 +34,15 @@
   margin-bottom: 0;
 }
 
+#light a{
+  /* background: #000000; */
+  color: #ffffff;
+}
+
+#dark a{
+  /* background: #ffffff; */
+  color: #000000;
+}
 .nav__item a{
   color: (--primary-color);
   font-weight: 500;

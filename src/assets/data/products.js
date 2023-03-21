@@ -1,26 +1,21 @@
-import productImg01 from "../images/double-sofa-01.png";
-import productImg02 from "../images/double-sofa-02.png";
-import productImg03 from "../images/double-sofa-03.png";
+import productImg01 from "../images/brake_pads.webp";
+import productImg02 from "../images/brake_pads_for_honda_auto_parts.webp";
+import productImg03 from "../images/audio_speaker.webp";
 
-import productImg04 from "../images/single-sofa-01.jpg";
-import productImg05 from "../images/single-sofa-02.jpg";
-import productImg06 from "../images/single-sofa-03.jpg";
+import productImg04 from "../images/parts_universal_joints_cross.webp";
+import productImg05 from "../images/NGK_spark_plug.webp";
+import productImg06 from "../images/exhaust_comma_headers_components.webp";
 import productImg007 from "../images/top-category-tools-and-garage.jpeg";
-
-// import productImg07 from "../images/arm-chair-01.jpg";
-// import productImg08 from "../images/arm-chair-02.jpg";
-// import productImg09 from "../images/arm-chair-03.jpg";
-// import productImg10 from "../images/arm-chair-01.jpg";
 
 import productImg07 from "../images/top-category-brakes-suspension-and-steering.jpeg";
 import productImg08 from "../images/top-category-auto-body-parts-and-mirrors.jpeg";
 import productImg09 from "../images/top-category-wheels-and-tires.jpeg";
 import productImg10 from "../images/top-category-headlights-and-lighting.jpeg";
 
-import productImg13 from "../images/shocks-comma-_struts_-and-_components.jpg";
-import productImg14 from "../images/tail_lights-comma-_back_up_lights_-and-_accessories.jpg";
-import productImg15 from "../images/tie_rods-comma-_steering_racks-comma-_gearboxes_-and-_components.jpg";
-import productImg16 from "../images/top-category-auto-body-parts-and-mirrors.jpeg";
+import productImg13 from "../images/universal_h4_scoket_high_and_low.webp";
+import productImg14 from "../images/sample_led_car_lamp_bulb.webp";
+import productImg15 from "../images/Dual_Color_Switchback.webp";
+import productImg16 from "../images/auto_led_backup.webp";
 import productImg17 from "../images/top-category-engine-and-drivetrain.jpeg";
 import productImg18 from "../images/top-category-exterior-accessories.jpeg";
 

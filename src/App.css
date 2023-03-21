@@ -12,6 +12,9 @@
   --heading-fontSize: 2rem;
   --small-text-color: #999;
   --heading-text-color: #0a1d37;
+  --light-text-color:  #ffffffaf;
+  --dark-text-color: #ffffffff;
+  
 }
 
 /* reset browser default */
@@ -41,18 +44,27 @@ p {
   font-size: 1rem;
 }
 
+#light p{
+  color: #ffffffff;
+}
+
+#dark p{
+  color: #000000;
+}
+
 h1,
 h2 {
   font-size: var(--heading-fontSize);
 }
 
 #light h2{
-  color: #ffffff;
+  color: var(--light-text-color);
 }
 
 #dark h2{
   color: #000000;
 }
+
 
 ul {
   list-style: none;
@@ -64,11 +76,11 @@ a {
 }
 
 #light a{
-  color: #ffffff;
+  color: #ffffffff;
 }
 
 #dark a{
-  color: #ffffff;
+  color: #ffffffaf;
 }
 
 
@@ -97,7 +109,6 @@ section{
 
 .react__switch{
   position: absolute;
-  /* bottom: 10px; */
   float: right;
   right: 10px;
 }
