@@ -20,7 +20,7 @@ const Widget = () => {
     headerIconColor="pink"
     headerTxtColor="black"
     headerBgColor="green"
-    headerTitle="John Doe"
+    headerTitle="J-Autos"
     headerCaption="Online"
     bodyBgColor="#bbb"
     chatPersonName="Support"

@@ -1,0 +1,27 @@
+[debug] [2023-03-21T19:38:34.577Z] ----------------------------------------------------------------------
+[debug] [2023-03-21T19:38:34.580Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-03-21T19:38:34.580Z] CLI Version:   11.24.1
+[debug] [2023-03-21T19:38:34.580Z] Platform:      win32
+[debug] [2023-03-21T19:38:34.581Z] Node Version:  v16.19.1
+[debug] [2023-03-21T19:38:34.582Z] Time:          Wed Mar 22 2023 00:38:34 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-03-21T19:38:34.582Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-21T19:38:34.677Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-21T19:38:34.677Z] > authorizing via signed-in user (ihtishamkhattak9504@gmail.com)
+[debug] [2023-03-21T19:38:34.678Z] [iam] checking project jalal-autos for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-21T19:38:34.681Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/jalal-autos:testIamPermissions [none]
+[debug] [2023-03-21T19:38:34.682Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/jalal-autos:testIamPermissions x-goog-quota-user=projects/jalal-autos
+[debug] [2023-03-21T19:38:34.682Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jalal-autos:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-21T19:38:36.454Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/jalal-autos:testIamPermissions 200
+[debug] [2023-03-21T19:38:36.455Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jalal-autos:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-21T19:38:36.459Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jalal-autos [none]
+[debug] [2023-03-21T19:38:37.465Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jalal-autos 200
+[debug] [2023-03-21T19:38:37.466Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jalal-autos {"projectId":"jalal-autos","projectNumber":"686026761282","displayName":"jalal-autos","name":"projects/jalal-autos","resources":{"hostingSite":"jalal-autos","storageBucket":"jalal-autos.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_0e4bc950-021c-4cdd-a69f-b8e00684bea4"}
+[info] 
+[info] === Deploying to 'jalal-autos'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-03-21T19:38:37.478Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jalal-autos/versions [none]
+[debug] [2023-03-21T19:38:37.478Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jalal-autos/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-03-21T19:38:40.251Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jalal-autos/versions 200
+[debug] [2023-03-21T19:38:40.252Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jalal-autos/versions {"name":"projects/686026761282/sites/jalal-autos/versions/7c3d742662ea1668","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
