@@ -43,8 +43,9 @@
   height: 300px;
 }
 
+
 #light .timer__count {
-  background: #ffffffaf;
+  background: var(--primary-color);
   color: #fff;
 }
 
@@ -66,7 +67,7 @@
 }
 
 #light .store__btn {
-  background: #000000;
+  background: #808080;
   color: #fff;
 }
 

@@ -1,5 +1,5 @@
 import productImg01 from "../images/brake_pads.webp";
-import productImg02 from "../images/brake_pads_for_honda_auto_parts.webp";
+import productImg02 from "../images/japan_car_brake_pad.webp";
 import productImg03 from "../images/audio_speaker.webp";
 
 import productImg04 from "../images/parts_universal_joints_cross.webp";
@@ -16,8 +16,8 @@ import productImg13 from "../images/universal_h4_scoket_high_and_low.webp";
 import productImg14 from "../images/sample_led_car_lamp_bulb.webp";
 import productImg15 from "../images/Dual_Color_Switchback.webp";
 import productImg16 from "../images/auto_led_backup.webp";
-import productImg17 from "../images/top-category-engine-and-drivetrain.jpeg";
-import productImg18 from "../images/top-category-exterior-accessories.jpeg";
+import productImg17 from "../images/new_design_high_power_bulb.webp";
+import productImg18 from "../images/h4_lead_headlights_blubs.webp";
 
 import productImg19 from "../images/gloss_black_machine.webp";
 import productImg20 from "../images/gloss_black_machine_silver.webp";
@@ -31,9 +31,9 @@ import productImg25 from "../images/fog_lights_2.webp";
 const products = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Brake Pads",
     imgUrl: productImg01,
-    category: "sofa",
+    category: "Equipment",
     price: 193,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -50,9 +50,9 @@ const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Toyota Brake Pad",
     imgUrl: productImg02,
-    category: "sofa",
+    category: "Equipement",
     price: 253,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -73,9 +73,9 @@ const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Audio Speaker",
     imgUrl: productImg03,
-    category: "sofa",
+    category: "Equipement",
     price: 173,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -95,9 +95,9 @@ const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Brake Pads for Honda",
     imgUrl: productImg02,
-    category: "sofa",
+    category: "Equipement",
     price: 253,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -117,9 +117,9 @@ const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Universal Joints Cross",
     imgUrl: productImg04,
-    category: "sofa",
+    category: "Equipement",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -140,9 +140,9 @@ const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "NGK Spark Plug",
     imgUrl: productImg05,
-    category: "sofa",
+    category: "Equipment",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -163,9 +163,9 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Exhaust Comma Headers",
     imgUrl: productImg06,
-    category: "sofa",
+    category: "Equipment",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -186,7 +186,7 @@ const products = [
   // Top Trending products
   {
     id: "07",
-    productName: "Body parts, Mirrors",
+    productName: "Brakes Suspension and Steering",
     imgUrl: productImg07,
     category: "parts",
     price: 99,
@@ -209,7 +209,7 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Tools and Garage",
     imgUrl: productImg007,
     category: "parts",
     price: 173,
@@ -232,7 +232,7 @@ const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Auto Body Parts and mirrors",
     imgUrl: productImg08,
     category: "parts",
     price: 89,
@@ -255,7 +255,7 @@ const products = [
 
   {
     id: "09",
-    productName: "Replica Wheels",
+    productName: "Wheels and Tires",
     imgUrl: productImg09,
     category: "parts",
     price: 112,
@@ -277,10 +277,33 @@ const products = [
   },
 
   {
+    id: "25",
+    productName: "Headlights and Lightining",
+    imgUrl: productImg10,
+    category: "headlights",
+    price: 99,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+
+  {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "H4 Scoket High and Low",
     imgUrl: productImg13,
-    category: "mobile",
+    category: "headlights",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -299,32 +322,10 @@ const products = [
     avgRating: 4.8,
   },
   {
-    id: "25",
-    productName: "Sakarias Armchair",
-    imgUrl: productImg10,
-    category: "chair",
-    price: 99,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
-      {
-        rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-      {
-        rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-    ],
-    avgRating: 4.7,
-  },
-  {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Led Car Lamp Bulb",
     imgUrl: productImg14,
-    category: "mobile",
+    category: "headlights",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -345,9 +346,9 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Dual Color Switchback",
     imgUrl: productImg15,
-    category: "mobile",
+    category: "headlights",
     price: 599,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -368,9 +369,9 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Auto Led Backup",
     imgUrl: productImg16,
-    category: "mobile",
+    category: "headlights",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -391,9 +392,9 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "New Design High Power Bulb",
     imgUrl: productImg17,
-    category: "mobile",
+    category: "headlights",
     price: 899,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -414,9 +415,9 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "H4 Lead Headlights Blubs",
     imgUrl: productImg18,
-    category: "mobile",
+    category: "headlights",
     price: 699,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",

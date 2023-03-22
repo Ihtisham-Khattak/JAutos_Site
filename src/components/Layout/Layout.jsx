@@ -2,7 +2,6 @@ import React, { createContext, useState } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Routers from "../../routers/Routers";
-import ReactSwitch from "react-switch";
 
 export const ThemeContent = createContext(null);
 
@@ -15,7 +14,7 @@ const Layout = () => {
     <>
       <ThemeContent.Provider value={{ theme, toggleTheme }}>
         <div id={theme}>
-          <Header toggleTheme={toggleTheme} theme={theme}/>
+          <Header toggleTheme={toggleTheme} theme={theme === "light"}/>
           <Routers />
           <Footer />
         </div>

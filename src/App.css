@@ -49,7 +49,7 @@ p {
 }
 
 #dark p{
-  color: #000000;
+  color: #ffffffaf;
 }
 
 h1,
@@ -76,7 +76,7 @@ a {
 }
 
 #light a{
-  color: #ffffffff;
+  color: #ffffff;
 }
 
 #dark a{
@@ -97,7 +97,7 @@ section{
   font-weight: 600;
 }
 
-#light{
+/* #light{
   background: #000000;
   color: #ffffff
 }
@@ -105,7 +105,7 @@ section{
 #dark{
   background: #ffffff;
   color: #000000;
-}
+} */
 
 .react__switch{
   position: absolute;

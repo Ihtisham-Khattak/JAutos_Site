@@ -5,13 +5,12 @@
 }
 
 #light .footer{
-  background: #ffffffaf;
+  background: var(--primary-color);
   color: #ffffff
 }
 
 #dark .footer{
   background: var(--primary-color);
-  color: #000000;
 }
 
 
@@ -19,6 +18,17 @@
   line-height: 30px;
   color: #fff;
 }
+
+
+#light .footer__text{
+  color: #ffffff
+}
+
+#dark .footer__text{
+  color: #ffffffaf;
+}
+
+
 
 .list-group-item {
   background-color: transparent !important;
@@ -47,7 +57,7 @@
 }
 
 #light{
-  background: #000000;
+  background: #808080;
   color: #ffffff
 }
 

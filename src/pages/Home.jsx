@@ -13,7 +13,6 @@ import { useState, useEffect } from "react";
 import counterImg from "../assets/images/top-category-exterior-accessories.png";
 import Clock from "../components/Ui/Clock";
 import TopCompany from "./TopCompany";
-import { useDispatch, useSelector } from "react-redux";
 
 function Home() {
   const [trindingProducts, setTrindingProducts] = useState([]);
@@ -29,11 +28,11 @@ function Home() {
       (item) => item.category === "parts"
     );
     const filteredBestSalesProducts = products.filter(
-      (item) => item.category === "sofa"
+      (item) => item.category === "Electric Equ"
     );
 
     const filteredMobileProducts = products.filter(
-      (item) => item.category === "mobile"
+      (item) => item.category === "headlights"
     );
 
     const filteredWirelessProducts = products.filter(
@@ -67,7 +66,7 @@ function Home() {
                 </p>
 
                 <motion.button whileTap={{ scale: 1.2 }} className="buy__btn">
-                  <Link to="/shop">SHOP NOW</Link>
+                  <Link to="/shop" >SHOP NOW</Link>
                 </motion.button>
               </div>
             </Col>
