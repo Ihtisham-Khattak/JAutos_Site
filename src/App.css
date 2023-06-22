@@ -58,11 +58,11 @@ h2 {
 }
 
 #light h2{
-  color: var(--light-text-color);
+  color: #ffffffff;
 }
 
 #dark h2{
-  color: #000000;
+  color: #ffffffaf;
 }
 
 
@@ -88,24 +88,15 @@ img{
   width: 100%;
 }
 
-section{
-  padding: 60px 0px;
-}
+/* section{
+  padding: 40px;
+} */
 
 .section__tilte{
   color: var(--primary-color);
   font-weight: 600;
 }
 
-/* #light{
-  background: #000000;
-  color: #ffffff
-}
-
-#dark{
-  background: #ffffff;
-  color: #000000;
-} */
 
 .react__switch{
   position: absolute;

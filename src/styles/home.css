@@ -1,5 +1,6 @@
 .hero__section {
-  background: var(--hero-bg);
+  background: var(--primary-color);
+  padding: 60px 0;
 }
 
 .hero__content h2 {
@@ -23,17 +24,20 @@
   outline: none;
   padding: 8px 20px;
   border-radius: 5px;
-  background-color: var(--primary-color);
-  color: #fff;
   font-size: 1rem;
   margin-top: 40px;
   cursor: pointer;
 }
 
-.buy__btn a:hover {
+#light .buy__btn {
+  background: var(--small-text-color);
   color: #fff;
 }
 
+#dark .buy__btn {
+  background: var(--small-text-color);
+  color: #fff;
+}
 .hero__content {
   padding-top: 45px;
 }
