@@ -5,7 +5,6 @@ import Widget from "./components/Ui/Widget";
 function App() {
   return (
     <>
-      {/* <h3>J Autos</h3> */}
       <Layout />
       <Widget />
     </>
