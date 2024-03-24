@@ -5,14 +5,13 @@ import Helmet from "../components/Helmet/Helmet";
 import products from "../assets/data/products";
 import "../styles/home.css";
 import { Container, Row, Col } from "react-bootstrap";
-import heroImg from "../assets/images/heroshot-desktop.webp";
-import heroImg_2 from "../assets/images/heroshot-desktop_2.webp";
 import Services from "../services/Services";
 import ProductsList from "../components/Ui/ProductsList";
 import { useState, useEffect } from "react";
 import counterImg from "../assets/images/top-category-exterior-accessories.png";
+import Intense from "../assets/images/Shop/Intense.jpeg";
 import Clock from "../components/Ui/Clock";
-import TopCompany from "./TopCompany";
+import CarouselSlider from "../components/Carousel/CarouselSlider";
 
 function Home() {
   const [trindingProducts, setTrindingProducts] = useState([]);
@@ -65,16 +64,9 @@ function Home() {
                   ipsum unde fuga totam.
                 </p>
 
-                <motion.button whileTap={{ scale: 1.2 }} className="buy__btn">
-                  <Link to="/shop" >SHOP NOW</Link>
+                <motion.button whileTap={{ scale: 1.2 }} className="button__50">
+                  <Link to="/shop">SHOP NOW</Link>
                 </motion.button>
-              </div>
-            </Col>
-
-            <Col lg="6" md="6">
-              <div className="hero__img">
-                <img src={heroImg} alt="home-img" className="mb-2" />
-                <img src={heroImg_2} alt="home-img second" />
               </div>
             </Col>
           </Row>
@@ -83,14 +75,24 @@ function Home() {
 
       <Services />
 
-      {/* Trending Companies */}
-      <section className="trending__products">
+      {/* Intense Cover Image */}
+      <section className="intense__cover">
+        <Row>
+          <Col lg="12" md="6">
+            <img src={Intense} alt="cover image" />
+          </Col>
+        </Row>
+      </section>
+
+      <section>
         <Container>
-          <Row>
-            <Col lg="12" className="text-center">
-              <h2 className="section__tilte">Trending Companies</h2>
+          <Row className="p-4">
+            <Col lg="6" className="new__arrival">
+              <h1>New Arrival</h1>
             </Col>
-            <TopCompany />
+            <Col lg="6">
+              <CarouselSlider />
+            </Col>
           </Row>
         </Container>
       </section>

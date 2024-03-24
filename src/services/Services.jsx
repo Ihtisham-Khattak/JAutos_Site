@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 import "./services.css";
 import serviceData from "../assets/data/serviceData";
@@ -13,16 +13,12 @@ const Services = () => {
             <Col lg="3" md="4" key={index}>
               <motion.div
                 whileHover={{ scale: 1.1 }}
-                className="service__item"
-                style={{ background: `${item.bg}` }}
-              >
-                <span>
-                  <i className={item.icon}></i>
-                </span>
+                className="service__item">
                 <div>
-                  <h3>{item.title}</h3>
-                  <p>{item.subtitle}</p>
+                  <h3 className="text-center p-3 font-weight-bold">{item.title}</h3>
+                  <img src={item.imgUrl} />
                 </div>
+                <Button className="button-50">Shop Now</Button>
               </motion.div>
             </Col>
           ))}

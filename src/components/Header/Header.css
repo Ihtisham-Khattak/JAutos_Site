@@ -13,7 +13,9 @@
 .logo{
   display: flex;
   align-items: center;
-  column-gap: 8px;
+  justify-content: center;
+  text-align: center;
+
 }
 
 .logo img{

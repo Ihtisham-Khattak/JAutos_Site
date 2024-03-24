@@ -1,26 +1,30 @@
+
+import ForHim from "../images/Shop/for-him.jpg"
+import ForHer from "../images/Shop/for-her1.jpg"
+import FourSquare from "../images/Shop/Four_square.jpg"
+import Luxury from "../images/Shop/luxury.jpg"
+
+
+
 const serviceData = [
   {
-    icon: "ri-truck-line",
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "PERFUMES",
+    imgUrl: ForHim,
     bg: "#fdefe6",
   },
   {
-    icon: "ri-refresh-line",
-    title: "Easy Returns",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "GIT SETS",
+    imgUrl: ForHer,
     bg: "#ceebe9",
   },
   {
-    icon: "ri-secure-payment-line",
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "FAVORITE",
+    imgUrl: FourSquare,
     bg: "#e2f2b2",
   },
   {
-    icon: "ri-exchange-dollar-line",
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "LUXURY",
+    imgUrl: Luxury,
     bg: "#d6e5fb",
   },
 ];

@@ -19,6 +19,10 @@ const nav__links = [
     display: "Home",
   },
   {
+    path: "newLaunch",
+    display: "New Launch",
+  },
+  {
     path: "shop",
     display: "Shop",
   },
@@ -89,14 +93,11 @@ const Header = ({ toggleTheme, theme }) => {
   return (
     <header className="header" ref={headerRef}>
       <Container>
-        <Row>
+        <Row >
           <div className="nav__wrapper">
             {/* Logo */}
             <div className="logo" onClick={navigateToHome}>
-              <img src={logo} alt="logo" />
-              <div>
-                <h1>J'Autos</h1>
-              </div>
+              <h1 className="logo">J'Autos</h1>
             </div>
 
             {/* Links */}
