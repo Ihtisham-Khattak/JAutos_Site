@@ -1,21 +1,29 @@
-import Carousel from "react-bootstrap/Carousel";
 import carouselData from "../../assets/data/carouselData";
+import CarouselComp from "../CarouselComp/CarouselComp";
 
 function CarouselSlider() {
+  
+  const settings = {
+    dots: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+  };
 
-  console.log(carouselData)
+  console.log(carouselData);
   return (
-    <Carousel slide={false}>
-      {carouselData?.map((items, index) => {
-        <Carousel.Item>
-          <Carousel.Caption>
-            <h3>{items.title}</h3>
-            <p>{items.amount}</p>
-          </Carousel.Caption>
-          <img src={items.imgUrl} />
-        </Carousel.Item>;
-      })}
-    </Carousel>
+    <CarouselComp settings={settings}>
+      {carouselData?.map((item, index) => (
+        <div key={index}>
+          <h3>{item.title}</h3>
+          <p>{item.amount}</p>
+          <img src={item.imgUrl} alt={item.title} />
+        </div>
+      ))}
+    </CarouselComp>
   );
 }
 

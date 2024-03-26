@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Helmet from "../components/Helmet/Helmet";
 import products from "../assets/data/products";
 import "../styles/home.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Services from "../services/Services";
 import ProductsList from "../components/Ui/ProductsList";
 import { useState, useEffect } from "react";
@@ -12,6 +12,7 @@ import counterImg from "../assets/images/top-category-exterior-accessories.png";
 import Intense from "../assets/images/Shop/Intense.jpeg";
 import Clock from "../components/Ui/Clock";
 import CarouselSlider from "../components/Carousel/CarouselSlider";
+import DiscoverItem from "../assets/images/Shop/discover.jpg";
 
 function Home() {
   const [trindingProducts, setTrindingProducts] = useState([]);
@@ -78,7 +79,7 @@ function Home() {
       {/* Intense Cover Image */}
       <section className="intense__cover">
         <Row>
-          <Col lg="12" md="6">
+          <Col lg="12" md="12">
             <img src={Intense} alt="cover image" />
           </Col>
         </Row>
@@ -96,12 +97,38 @@ function Home() {
           </Row>
         </Container>
       </section>
+      {/* Intense Cover Image End*/}
+
+      {/*Discover Item*/}
+      <section className="discover_item">
+        <Container>
+          <Row className="p-3">
+            <Col lg="6" md="12" >
+              <img src={DiscoverItem} alt="discover_item"  />
+            </Col>
+            <Col lg="6" md="12">
+              <h1 className="p-3">OROS HOLIDAY EDITION BY ARMAF</h1>
+              <p className="p-3">
+                Oros HOLIDAY EDITION has a fruity and intoxicating aroma that
+                brings the perfect reminder of holiday cheer. This enchanting
+                fragrance has lush notes of Raspberries, cinnamon and vanilla
+                giving a subtle rendering of rich holiday feasts and desserts.
+                The royal combination of maroon and gold presents as the perfect
+                holiday gift for the lady you love. Encased in an exclusive
+                velvet box, every element of the packaging exhibits opulence and
+                grandeur.
+              </p>
+              <Button className="button__50">Discover</Button>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
       {/* Trending Products */}
       <section className="trending__products">
         <Container>
           <Row>
-            <Col lg="12" className="text-center">
+            <Col lg="12" className="text-center p-3">
               <h2 className="section__tilte">Trending Parts</h2>
             </Col>
             <ProductsList data={trindingProducts} />
@@ -113,7 +140,7 @@ function Home() {
       <section className="best__sales">
         <Container>
           <Row>
-            <Col lg="12" className="text-center">
+            <Col lg="12" className="text-center p-3">
               <h2 className="section__tilte">Best Sales</h2>
             </Col>
             <ProductsList data={mobileProducts} />

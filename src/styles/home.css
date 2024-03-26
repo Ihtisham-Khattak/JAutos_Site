@@ -151,6 +151,12 @@
   font-weight: 700;
 }
 
+/* {Discover Item} */
+.discover_item img{
+
+  border-radius: 1px round;
+}
+
 @media only screen and (max-width: 992px) {
   .hero__content h2 {
     font-size: 2rem;
