@@ -11,8 +11,8 @@ import { useState, useEffect } from "react";
 import counterImg from "../assets/images/top-category-exterior-accessories.png";
 import Intense from "../assets/images/Shop/Intense.jpeg";
 import Clock from "../components/Ui/Clock";
-import CarouselSlider from "../components/Carousel/CarouselSlider";
 import DiscoverItem from "../assets/images/Shop/discover.jpg";
+import NewArrival from "../components/Ui/NewArrival";
 
 function Home() {
   const [trindingProducts, setTrindingProducts] = useState([]);
@@ -88,11 +88,11 @@ function Home() {
       <section>
         <Container>
           <Row className="p-4">
-            <Col lg="6" className="new__arrival">
+            <Col lg="4" className="new__arrival">
               <h1>New Arrival</h1>
             </Col>
-            <Col lg="6">
-              <CarouselSlider />
+            <Col lg="8" md="6">
+              <NewArrival />
             </Col>
           </Row>
         </Container>
@@ -104,7 +104,7 @@ function Home() {
         <Container>
           <Row className="p-3">
             <Col lg="6" md="12" >
-              <img src={DiscoverItem} alt="discover_item"  />
+              <img src={DiscoverItem} alt="discover_item" className="rounded" />
             </Col>
             <Col lg="6" md="12">
               <h1 className="p-3">OROS HOLIDAY EDITION BY ARMAF</h1>

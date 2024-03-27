@@ -152,9 +152,8 @@
 }
 
 /* {Discover Item} */
-.discover_item img{
-
-  border-radius: 1px round;
+.discover_item{
+  border-radius: 2px;
 }
 
 @media only screen and (max-width: 992px) {
