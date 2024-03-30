@@ -9,10 +9,9 @@ import Services from "../services/Services";
 import ProductsList from "../components/Ui/ProductsList";
 import { useState, useEffect } from "react";
 import counterImg from "../assets/images/top-category-exterior-accessories.png";
-import Intense from "../assets/images/Shop/Intense.jpeg";
 import Clock from "../components/Ui/Clock";
-import DiscoverItem from "../assets/images/Shop/discover.jpg";
 import NewArrival from "../components/Ui/NewArrival";
+import Brands from "../components/Ui/Brands";
 
 function Home() {
   const [trindingProducts, setTrindingProducts] = useState([]);
@@ -58,11 +57,11 @@ function Home() {
             <Col lg="6" md="6">
               <div className="hero__content">
                 <p className="hero__subtitle">Trending product in {year}</p>
-                <h2>Make Your Interior More Minimalistic & Modern</h2>
+                <h2>FIND CLOTHES THAT MATCHES YOUR STYLE</h2>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-                  officiis facere doloremque numquam libero obcaecati asperiores
-                  ipsum unde fuga totam.
+                  Browse through our diverse range of meticulously crafted
+                  garments, designed to bring out your individuality and cater
+                  to your sense of style.
                 </p>
 
                 <motion.button whileTap={{ scale: 1.2 }} className="button__50">
@@ -74,26 +73,21 @@ function Home() {
         </Container>
       </section>
 
-      <Services />
+      <Brands />
 
-      {/* Intense Cover Image */}
-      <section className="intense__cover">
-        <Row>
-          <Col lg="12" md="12">
-            <img src={Intense} alt="cover image" />
-          </Col>
-        </Row>
-      </section>
+      {/*  <Services />*/}
 
       <section>
         <Container>
           <Row className="p-4">
-            <Col lg="4" className="new__arrival">
+            <Col lg="12" md="6" className="new__arrival">
               <h1>New Arrival</h1>
             </Col>
-            <Col lg="8" md="6">
-              <NewArrival />
-            </Col>
+            <Row>
+              <Col lg="12" md="6">
+                <NewArrival />
+              </Col>
+            </Row>
           </Row>
         </Container>
       </section>
@@ -103,9 +97,6 @@ function Home() {
       <section className="discover_item">
         <Container>
           <Row className="p-3">
-            <Col lg="6" md="12" >
-              <img src={DiscoverItem} alt="discover_item" className="rounded" />
-            </Col>
             <Col lg="6" md="12">
               <h1 className="p-3">OROS HOLIDAY EDITION BY ARMAF</h1>
               <p className="p-3">

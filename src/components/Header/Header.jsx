@@ -2,9 +2,8 @@ import React from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./Header.css";
 import { motion } from "framer-motion";
-import logo from "../../assets/images/JAutos.png";
 import userIcon from "../../assets/images/user-icon.png";
-import { Button, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { useRef, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import useAuth from "../../custom-hooks/useAuth";
@@ -15,20 +14,16 @@ import ReactSwitch from "react-switch";
 
 const nav__links = [
   {
-    path: "home",
-    display: "Home",
+    path: "onSale",
+    display: "On Sale",
   },
   {
-    path: "newLaunch",
-    display: "New Launch",
+    path: "newArrival",
+    display: "New Arrival",
   },
   {
-    path: "shop",
-    display: "Shop",
-  },
-  {
-    path: "cart",
-    display: "Cart",
+    path: "brands",
+    display: "Brands",
   },
 ];
 
@@ -93,10 +88,10 @@ const Header = ({ toggleTheme, theme }) => {
   return (
     <header className="header" ref={headerRef}>
       <Container>
-        <Row >
+        <Row>
           <div className="nav__wrapper">
             {/* Logo */}
-            <div className="logo" onClick={navigateToHome}>
+            <div onClick={navigateToHome}>
               <h1 className="logo">J'Autos</h1>
             </div>
 
@@ -161,18 +156,20 @@ const Header = ({ toggleTheme, theme }) => {
               </div>
 
               {/* Dark and Light Mode */}
-              <ReactSwitch
+              {/*<ReactSwitch
                 onChange={toggleTheme}
                 checked={theme}
                 className="react__switch"
               />
 
               {/* Mobile Menu */}
+              {/*
               <div className="mobile__menu">
                 <span onClick={menuToggle}>
                   <i className="ri-menu-line"></i>
                 </span>
               </div>
+               */}
             </div>
           </div>
         </Row>

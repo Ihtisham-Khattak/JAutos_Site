@@ -1,5 +1,5 @@
 /* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /*  css variables */
 :root {
@@ -11,10 +11,11 @@
   --hero-bg: #d6e5fb;
   --heading-fontSize: 2rem;
   --small-text-color: #999;
-  --heading-text-color: #0a1d37;
-  --light-text-color:  #ffffffaf;
+  --nav-links: #ffff;
+  --background-color: #000;
+  --heading-text-color: #000000;
+  --light-text-color: #ffffffaf;
   --dark-text-color: #ffffffff;
-  
 }
 
 /* reset browser default */
@@ -25,7 +26,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -39,32 +40,39 @@ p {
   margin: 0;
 }
 
+h3,
+h4,
+h5 {
+  font-size: 15px;
+  padding: 5px 0;
+}
+
 p {
   color: var(--small-text-color);
   font-size: 1rem;
 }
 
-#light p{
+/* #light p{
   color: #ffffffff;
 }
 
 #dark p{
   color: #ffffffaf;
-}
+} */
 
 h1,
 h2 {
   font-size: var(--heading-fontSize);
+  color: var(--heading-text-color);
 }
 
-#light h2{
+/* #light h2{
   color: #ffffffff;
 }
 
 #dark h2{
   color: #ffffffaf;
-}
-
+} */
 
 ul {
   list-style: none;
@@ -75,16 +83,15 @@ a {
   color: unset;
 }
 
-#light a{
+/* #light a{
   color: #ffffff;
 }
 
 #dark a{
   color: #ffffffaf;
-}
+} */
 
-
-img{
+img {
   width: 100%;
 }
 
@@ -92,13 +99,12 @@ img{
   padding: 40px;
 } */
 
-.section__tilte{
+.section__tilte {
   color: var(--primary-color);
   font-weight: 600;
 }
 
-
-.react__switch{
+.react__switch {
   position: absolute;
   float: right;
   right: 10px;

@@ -1,9 +1,10 @@
 .hero__section {
   padding: 60px 0;
   height: 100%;
-  background-image: url("../assets/images/Banner.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../assets/images/Banner.png");
+  background-size: contain;
+  background-position: right;
+  background-color: #f2f0f1;
   background-repeat: no-repeat;
 }
 
@@ -19,6 +20,23 @@
   line-height: 28px;
 }
 
+.hero__img-01{
+
+  position: relative;
+  width: 50px;
+  height: 50px;
+  bottom: 100px;
+  float: right;
+}
+
+.hero__img-02{
+  position: relative;
+    width: 50px;
+    height: 50px;
+    left: 23rem;
+    bottom: 20rem;
+    float: right;
+}
 .hero__content p:nth-child(1) {
   font-weight: 500;
 }

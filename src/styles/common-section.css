@@ -1,6 +1,5 @@
 .common__section{
-  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)),
-  url('../assets/images/heroshot-desktop_2.webp') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562));
   background-size: cover;
   height: 350px;
   display: flex;

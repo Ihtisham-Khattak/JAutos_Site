@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 import "./services.css";
-import serviceData from "../assets/data/serviceData";
 
 const Services = () => {
   return (

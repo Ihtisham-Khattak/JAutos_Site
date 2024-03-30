@@ -3,7 +3,7 @@
   padding-bottom: 30px;
   background: var(--primary-color);
 }
-
+/* 
 #light .footer{
   background: var(--primary-color);
   color: #ffffff
@@ -11,7 +11,7 @@
 
 #dark .footer{
   background: var(--primary-color);
-}
+} */
 
 
 .footer__text{
@@ -20,13 +20,13 @@
 }
 
 
-#light .footer__text{
+/* #light .footer__text{
   color: #ffffff
 }
 
 #dark .footer__text{
   color: #ffffffaf;
-}
+} */
 
 
 
@@ -56,7 +56,7 @@
   text-align: center;
 }
 
-#light{
+/* #light{
   background: #808080;
   color: #ffffff
 }
@@ -64,4 +64,4 @@
 #dark{
   background: #ffffff;
   color: #000000;
-}
+} */
